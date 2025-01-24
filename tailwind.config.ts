@@ -52,26 +52,26 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Morning Theme
+        // Morning Theme (Scholarly & Fresh)
         morning: {
-          primary: "#FEF7CD",
-          secondary: "#D3E4FD",
-          accent: "#F97316",
-          text: "#1A1F2C",
+          primary: "#F2FCE2",    // Soft sage
+          secondary: "#D3E4FD",  // Light scholarly blue
+          accent: "#9b87f5",     // Gentle purple
+          text: "#2D3748",       // Deep readable gray
         },
-        // Evening Theme
+        // Evening Theme (Warm & Engaging)
         evening: {
-          primary: "#9b87f5",
-          secondary: "#FEC6A1",
-          accent: "#D946EF",
-          text: "#221F26",
+          primary: "#7E69AB",    // Rich purple
+          secondary: "#FEC6A1",  // Warm peach
+          accent: "#D946EF",     // Vibrant magenta
+          text: "#221F26",       // Deep purple-black
         },
-        // Night Theme
+        // Night Theme (Deep & Focused)
         night: {
-          primary: "#1A1F2C",
-          secondary: "#6E59A5",
-          accent: "#8B5CF6",
-          text: "#F6F6F7",
+          primary: "#1A1F2C",    // Deep navy
+          secondary: "#6E59A5",  // Muted purple
+          accent: "#8B5CF6",     // Bright purple
+          text: "#F6F6F7",       // Soft white
         },
       },
       animation: {
@@ -87,6 +87,10 @@ export default {
           "0%": { transform: "scale(0.95)", opacity: "0" },
           "100%": { transform: "scale(1)", opacity: "1" },
         },
+      },
+      fontFamily: {
+        serif: ['Merriweather', 'Georgia', 'serif'],
+        sans: ['Lato', 'system-ui', 'sans-serif'],
       },
     },
   },
